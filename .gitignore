@@ -1,0 +1,55 @@
+# Workspace-level .gitignore for Library Management System
+
+# Node modules
+**/node_modules/
+
+# Environment files
+**/.env
+**/.env.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Build output
+**/dist/
+**/build/
+
+# Coverage
+coverage/
+
+# Mac .localized
+.localized
+
+# Package lock (optional)
+# Remove the next line if you prefer to commit lockfiles
+**/package-lock.json
+
+# SQLite DBs
+**/*.sqlite
+
+# Archives
+*.tgz
+
+# Temporary files
+*.tmp
+*.swp
+
+# Ignore backend specific files too (already present in backend/.gitignore but harmless here)
+backend/node_modules/
+backend/.env
+
+# Ignore any local Visual Studio or other IDE files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
